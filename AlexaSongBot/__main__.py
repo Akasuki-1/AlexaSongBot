@@ -11,7 +11,7 @@ from AlexaSongBot.sql.chat_sql import add_chat_to_db
 
 start_text = """
 Hey [{}](tg://user?id={}),
-I'm Alexa 🤗
+I'm ***HULK*** [🤗](https://telegra.ph/file/314643288ccf6af5ab371.jpg)
 Just send me the song name you want to download.
 Eg: ```/song Faded Alan Walker```
 """
@@ -35,7 +35,7 @@ async def start(client, message):
             [
                 [
                     InlineKeyboardButton(
-                        text="🔳 Source Code 🔳", url="https://github.com/Mr-Dark-Prince/AlexaSongBot"
+                        text="Source Code", url="t.me/nokkiirunnoippokittum"
                     )
                 ]
             ]
